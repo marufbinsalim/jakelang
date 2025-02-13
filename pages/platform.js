@@ -19,7 +19,7 @@ function Navbar() {
           <a href="#" className="hover:text-red-600">
             NEWS
           </a>
-          <a href="#" className="hover:text-red-600">
+          <a href="/events" className="hover:text-red-600">
             EVENTS
           </a>
           <a href="#" className="hover:text-red-600">
