@@ -77,17 +77,22 @@ export default function Home() {
       </div>
 
       <div
-        className="h-screen bg-gray-100 bg-cover bg-center bg-no-repeat relative"
-        style={{ backgroundImage: "url('/events.webp')" }}
+        className="h-[70vh] bg-gray-100 bg-cover bg-center bg-no-repeat relative"
+        style={{
+          backgroundImage: "url('/news.webp')",
+          filter: "grayscale(30%)",
+        }}
       >
-        <div className="container mx-auto">
-          <div className="flex items-center justify-center h-screen">
-            <h1 className="text-5xl font-bold text-center text-white">
-              Events
-            </h1>
+        <div className="container mx-auto h-full">
+          <div className="flex items-center justify-center h-full">
+            <h1 className="text-5xl font-bold text-center text-white">News</h1>
           </div>
         </div>
       </div>
+
+      <p className="text-center text-gray-800 py-8">
+        No news yet. Check back later!
+      </p>
     </div>
   );
 }
