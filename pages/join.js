@@ -104,13 +104,13 @@ function Navbar() {
           <a href="/platform" className="hover:text-red-600">
             PLATFORM
           </a>
-          <a href="#" className="hover:text-red-600">
+          <a href="/news" className="hover:text-red-600">
             NEWS
           </a>
           <a href="/events" className="hover:text-red-600">
             EVENTS
           </a>
-          <a href="#" className="hover:text-red-600">
+          <a href="/join" className="hover:text-red-600">
             GET INVOLVED
           </a>
         </nav>

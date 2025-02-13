@@ -16,13 +16,13 @@ function Navbar() {
           <a href="/platform" className="hover:text-red-600">
             PLATFORM
           </a>
-          <a href="#" className="hover:text-red-600">
+          <a href="/news" className="hover:text-red-600">
             NEWS
           </a>
           <a href="/events" className="hover:text-red-600">
             EVENTS
           </a>
-          <a href="#" className="hover:text-red-600">
+          <a href="/join" className="hover:text-red-600">
             GET INVOLVED
           </a>
         </nav>
@@ -82,9 +82,7 @@ export default function Home() {
       >
         <div className="container mx-auto">
           <div className="flex items-center justify-center h-screen">
-            <h1 className="text-5xl font-bold text-center text-white">
-              Events
-            </h1>
+            <h1 className="text-5xl font-bold text-center text-white">News</h1>
           </div>
         </div>
       </div>
