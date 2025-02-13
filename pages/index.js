@@ -94,7 +94,9 @@ export default function Home() {
                 CONTRIBUTE
               </button>
               <button className="bg-blue-900 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded">
-                VOLUNTEER
+                <a href="/join" className="hover:text-red-600">
+                  VOLUNTEER
+                </a>
               </button>
             </div>
           </div>
