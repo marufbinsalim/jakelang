@@ -5,7 +5,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsTop(window.scrollY === 0);
+      setIsTop(window.scrollY < 100); // Allow some scroll before hiding
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -16,10 +16,14 @@ export default function Home() {
 
   return (
     <div className="relative">
-      <div
-        className={`sticky top-0 z-50 w-full transition-all ${isTop ? "bg-red-600" : "bg-white shadow-md"}`}
-      >
-        {isTop && (
+      {/* Wrapper to prevent layout shift */}
+      <div className="sticky top-0 z-50 w-full transition-all duration-300 ease-in-out">
+        {/* Red banner with smooth height transition */}
+        <div
+          className={`overflow-hidden transition-all duration-300 ease-in-out ${
+            isTop ? "h-[50px] opacity-100" : "h-0 opacity-0"
+          } bg-red-600`}
+        >
           <p className="text-white text-center w-full py-4">
             <a href="sms://88022;?&amp;body=%20TRUMP">
               <b>
@@ -27,8 +31,10 @@ export default function Home() {
               </b>
             </a>
           </p>
-        )}
-        <div className="flex items-center justify-between w-full h-16 px-4 bg-white">
+        </div>
+
+        {/* Navbar (Always Present) */}
+        <div className="flex items-center justify-between w-full h-16 px-4 bg-white shadow-md">
           Navbar
         </div>
       </div>
