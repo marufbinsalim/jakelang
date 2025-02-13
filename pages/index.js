@@ -121,15 +121,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="h-screen bg-gray-100">
-        <div className="container mx-auto">
-          <div className="flex items-center justify-center h-screen">
-            <h1 className="text-3xl font-bold text-center text-gray-800">
-              Jake Lang 2
-            </h1>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }

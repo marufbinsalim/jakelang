@@ -92,13 +92,15 @@ export default function Home() {
       <div
         className="h-[70vh] bg-gray-100 bg-cover bg-center bg-no-repeat relative"
         style={{
-          backgroundImage: "url('/news.webp')",
+          backgroundImage: "url('/platform.jpg')",
           filter: "grayscale(30%)",
         }}
       >
         <div className="container mx-auto h-full">
           <div className="flex items-center justify-center h-full">
-            <h1 className="text-5xl font-bold text-center text-white">News</h1>
+            <h1 className="text-5xl font-bold text-center text-white">
+              Platform
+            </h1>
           </div>
         </div>
       </div>
