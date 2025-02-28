@@ -1,7 +1,16 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import ShopSection from "@/components/Shop";
-import { Facebook, FacebookIcon, Instagram, Twitter } from "lucide-react";
+import {
+  BadgeHelp,
+  Facebook,
+  FacebookIcon,
+  HandHeart,
+  HandHelping,
+  Instagram,
+  LucideHandshake,
+  Twitter,
+} from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -22,9 +31,15 @@ function HowYouCanHelp() {
               message.
             </p>
             <Link href="/join">
-              <button className="mt-4 bg-blue-800 text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition">
-                VOLUNTEER
-              </button>
+              <>
+                <LucideHandshake
+                  size={24}
+                  className="text-red-600 mx-auto mt-2"
+                />
+                <button className="mt-4 bg-blue-800 text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition">
+                  VOLUNTEER
+                </button>
+              </>
             </Link>
           </div>
           <div className="flex flex-col bg-white text-blue-800 p-6 rounded-xl shadow-md">
@@ -34,9 +49,12 @@ function HowYouCanHelp() {
               impact.
             </p>
             <Link href="https://secure.winred.com/jake-lang-for-senate-inc/donate-hd?sc=winred-directory&money_bomb=false&recurring=false">
-              <button className="mt-4 bg-blue-800 text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition">
-                CONTRIBUTE
-              </button>
+              <>
+                <HandHeart size={24} className="text-red-600 mx-auto mt-2" />
+                <button className="mt-4 bg-blue-800 text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition">
+                  CONTRIBUTE
+                </button>
+              </>
             </Link>
           </div>
           <div className="flex flex-col bg-white text-blue-800 p-6 rounded-xl shadow-md">
@@ -46,9 +64,12 @@ function HowYouCanHelp() {
               about voting for Jake Lang.
             </p>
             <Link href="https://x.com/JakeLangJ6" target="_blank">
-              <button className="mt-4 bg-blue-800 text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition">
-                FOLLOW JAKE
-              </button>
+              <>
+                <Twitter size={24} className="text-red-600 mx-auto mt-2" />
+                <button className="mt-4 bg-blue-800 text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition">
+                  FOLLOW JAKE
+                </button>
+              </>
             </Link>
           </div>
         </div>
