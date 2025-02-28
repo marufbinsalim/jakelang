@@ -43,7 +43,7 @@ function CampaignIntro() {
         {/* line */}
         <div className="w-full h-[1px] bg-gray-500 my-6"></div>
 
-        <p className="text-lg mb-6">
+        <p className="text-lg mb-6 md:max-w-3xl">
           A leader for the people, Jake Lang is running for U.S. Senate to bring
           real change to Florida. With a vision for a stronger economy, better
           healthcare, and a brighter future, Jake is committed to fighting for
