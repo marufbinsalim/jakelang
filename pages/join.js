@@ -46,10 +46,13 @@ export default function Home() {
         }}
       >
         <div className="container mx-auto h-full">
-          <div className="flex items-center justify-center h-full">
-            <h1 className="text-5xl font-bold text-center text-white">
-              Get Involved
+          <div className="flex flex-col items-center justify-center h-full">
+            <h1 className="text-5xl font-bold px-4 md:text-center text-white mt-auto">
+              Vote For Jake Lang
             </h1>
+            <p className="text-2xl md:text-center px-4 text-white mb-[40px]">
+              Jake Lang is running for U.S. Senate in 2025
+            </p>
           </div>
         </div>
       </div>

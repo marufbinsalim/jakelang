@@ -39,7 +39,7 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4 text-left">
             Join Our Movement
             <p className="text-sm font-extralight">
-              Vote Jake Lang for U.S. Senate
+              {`Vote Jake Lang for U.S. Senate, Florida`}
             </p>
           </h3>
           <div className="flex items-center gap-2 flex-wrap">

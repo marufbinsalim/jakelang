@@ -196,7 +196,7 @@ export default function Home() {
       <CampaignIntro />
       <VideoPlayer
         src="https://pg1aksyh5a.ufs.sh/f/F43hPbKWmpQOveJWioM2e9YSOxXgFhbGTVc5miMRdjPUz34n"
-        poster="/jake.jpeg"
+        poster="/thumbnail.png"
       />
       <Footer />
     </div>

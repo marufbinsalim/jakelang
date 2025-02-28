@@ -73,13 +73,13 @@ function VolunteerSignup() {
       </div>
 
       {/* Description */}
-      <div className="p-6 text-center text-gray-800">
+      <div className="px-6 pt-6 text-gray-800">
         <p>
           The forgotten men and women are the heart and soul of our incredible
-          movement to Make America Great Again. The only force strong enough to
-          defeat the massive corruption we are up against is you, the American
-          People. In order to restore the fabric of our glorious nation, we need
-          every patriot to support our campaign and make your voices heard.
+          movement. The revolution is just beginning. Join us!
+          <br />
+          <br />
+          Vote Jake Lang for U.S. Senate, Florida
         </p>
       </div>
 
