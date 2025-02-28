@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import ShopSection from "@/components/Shop";
+import { Facebook, FacebookIcon, Instagram, Twitter } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -198,6 +199,30 @@ export default function Home() {
         src="https://pg1aksyh5a.ufs.sh/f/F43hPbKWmpQOveJWioM2e9YSOxXgFhbGTVc5miMRdjPUz34n"
         poster="/thumbnail.png"
       />
+      <div className="p-4 text-center bg-red-600">
+        <p className="text-white w-full text-2xl font-bold">
+          Follow Jake Lang on Social Media
+        </p>
+        <div className="flex justify-center space-x-4 bg-red-600 p-4">
+          <Link href="#">
+            <p className="text-white hover:text-gray-300 transition">
+              <Facebook size={24} />
+            </p>
+          </Link>
+          <Link href="https://x.com/JakeLangJ6" target="_blank">
+            <p className="text-white hover:text-gray-300 transition">
+              <Twitter size={24} />
+            </p>
+          </Link>
+          <Link href="#">
+            <p className="text-white hover:text-gray-300 transition">
+              <Instagram size={24} />
+            </p>
+          </Link>
+        </div>
+        <div className="w-full h-[1px] bg-[#dbdbdb30] my-6"></div>
+      </div>
+
       <Footer />
     </div>
   );
