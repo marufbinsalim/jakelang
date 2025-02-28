@@ -5,6 +5,59 @@ import { Facebook, FacebookIcon, Instagram, Twitter } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+function HowYouCanHelp() {
+  return (
+    <section className="bg-blue-900 text-white py-12 px-8 text-center">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-3xl font-bold mb-4">How You Can Help</h2>
+        <p className="text-lg mb-6">
+          There are many ways you can support Jake Lang’s campaign. Whether it’s
+          volunteering, donating, or spreading the word, every effort counts!
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="flex flex-col bg-white text-blue-800 p-6 rounded-xl shadow-md">
+            <h3 className="text-xl font-semibold">Volunteer</h3>
+            <p className="text-md mb-auto">
+              Join our team to knock on doors, make calls, and help spread the
+              message.
+            </p>
+            <Link href="/join">
+              <button className="mt-4 bg-blue-800 text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition">
+                VOLUNTEER
+              </button>
+            </Link>
+          </div>
+          <div className="flex flex-col bg-white text-blue-800 p-6 rounded-xl shadow-md">
+            <h3 className="text-xl font-semibold">Donate</h3>
+            <p className="text-md mb-auto">
+              Every contribution helps us reach more voters and make a bigger
+              impact.
+            </p>
+            <Link href="https://secure.winred.com/jake-lang-for-senate-inc/donate-hd?sc=winred-directory&money_bomb=false&recurring=false">
+              <button className="mt-4 bg-blue-800 text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition">
+                CONTRIBUTE
+              </button>
+            </Link>
+          </div>
+          <div className="flex flex-col bg-white text-blue-800 p-6 rounded-xl shadow-md">
+            <h3 className="text-xl font-semibold">Spread the Word</h3>
+            <p className="text-md mb-auto">
+              Share our campaign on social media and talk to friends and family
+              about voting for Jake Lang.
+            </p>
+            <Link href="https://x.com/JakeLangJ6" target="_blank">
+              <button className="mt-4 bg-blue-800 text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition">
+                FOLLOW JAKE
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="w-full h-[1px] bg-[#dbdbdb30] my-6"></div>
+    </section>
+  );
+}
+
 const VideoPlayer = ({ src, poster }) => {
   return (
     <div className="flex justify-center items-center p-[5%] py-[80px] bg-red-600 flex-col gap-4">
@@ -222,6 +275,8 @@ export default function Home() {
         </div>
         <div className="w-full h-[1px] bg-[#dbdbdb30] my-6"></div>
       </div>
+
+      <HowYouCanHelp />
 
       <Footer />
     </div>
