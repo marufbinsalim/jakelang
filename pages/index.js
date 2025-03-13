@@ -48,7 +48,10 @@ function HowYouCanHelp() {
               Every contribution helps us reach more voters and make a bigger
               impact.
             </p>
-            <Link href="https://secure.winred.com/jake-lang-for-senate-inc/donate-hd?sc=winred-directory&money_bomb=false&recurring=false">
+            <Link
+              href="https://secure.winred.com/jake-lang-for-senate-inc/donate-hd?sc=winred-directory&money_bomb=false&recurring=false"
+              target="_blank"
+            >
               <>
                 <HandHeart size={24} className="text-red-600 mx-auto mt-2" />
                 <button className="mt-4 bg-blue-800 text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-blue-700 transition">
@@ -192,9 +195,7 @@ export default function Home() {
           } bg-red-600`}
         >
           <p className="text-white text-center w-full py-4">
-            <a href="sms://31996;?&amp;body=%20TRUMP">
-              <b>Text Jake Lang in 31996</b>
-            </a>
+            100% BAKING TRUMP AGENDA
           </p>
         </div>
         {/* Navbar (Always Present) */}
@@ -273,6 +274,8 @@ export default function Home() {
         src="https://pg1aksyh5a.ufs.sh/f/F43hPbKWmpQOveJWioM2e9YSOxXgFhbGTVc5miMRdjPUz34n"
         poster="/thumbnail.png"
       />
+      <HowYouCanHelp />
+
       <div className="p-4 text-center bg-red-600">
         <p className="text-white w-full text-2xl font-bold">
           Follow Jake Lang on Social Media
@@ -294,10 +297,8 @@ export default function Home() {
             </p>
           </Link>
         </div>
-        <div className="w-full h-[1px] bg-[#dbdbdb30] my-6"></div>
+        <div className="w-full h-[1px] bg-[#dbdbdb30]"></div>
       </div>
-
-      <HowYouCanHelp />
 
       <Footer />
     </div>

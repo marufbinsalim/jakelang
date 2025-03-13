@@ -13,7 +13,11 @@ function Navbar() {
         {/* Logo */}
         <div className="flex items-center">
           <a href="/">
-            <img src="/logo.png" alt="Vote for Jake Lang" className="h-12" />
+            <img
+              src="/logomain.jpeg"
+              alt="Vote for Jake Lang"
+              className="h-12"
+            />
           </a>
         </div>
 

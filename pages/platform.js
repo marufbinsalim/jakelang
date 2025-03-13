@@ -40,9 +40,7 @@ export default function Home() {
           } bg-red-600`}
         >
           <p className="text-white text-center w-full py-4">
-            <a href="sms://31996;?&amp;body=%20TRUMP">
-              <b>Text Jake Lang in 31996</b>
-            </a>
+            100% BAKING TRUMP AGENDA
           </p>
         </div>
 
