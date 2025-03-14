@@ -28,7 +28,7 @@ export default function Home() {
           } bg-red-600`}
         >
           <p className="text-white text-center w-full py-4">
-            100% BAKING TRUMP AGENDA
+            100% TRUMP AMERICA AGENDA 🇺🇸
           </p>
         </div>
 
